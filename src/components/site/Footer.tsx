@@ -52,7 +52,7 @@ export const Footer = () => (
         <h4 className="font-display text-gold mb-4">Contatti</h4>
         <ul className="space-y-3 text-sm text-primary-foreground/80">
           <li className="flex items-start gap-2"><Phone className="h-4 w-4 text-gold mt-0.5" /> <a href="tel:+393209597777" className="hover:text-gold">+39 320 9597777</a></li>
-          <li className="flex items-start gap-2"><Mail className="h-4 w-4 text-gold mt-0.5" /> info@abidounetravel.com</li>
+          <li className="flex items-start gap-2"><Mail className="h-4 w-4 text-gold mt-0.5" /> <a href="mailto:abidountravel@gmail.com" className="hover:text-gold">abidountravel@gmail.com</a></li>
           <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-gold mt-0.5" /> Italia</li>
         </ul>
       </div>
