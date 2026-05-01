@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import logo from "@/assets/abidoune-logo.png";
 
 export const Footer = () => (
@@ -6,9 +6,29 @@ export const Footer = () => (
     <div className="container py-16 grid md:grid-cols-4 gap-10">
       <div>
         <img src={logo} alt="Abidoune Travel" className="h-20 w-auto mb-4 brightness-110" />
-        <p className="text-primary-foreground/70 text-sm leading-relaxed">
+        <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
           Abidoune Travel — il tuo partner di fiducia per Hajj e Umrah.
         </p>
+        <div className="flex gap-3">
+          <a
+            href="https://www.facebook.com/share/18V98ADNA2/?mibextid=wwXIfr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="inline-flex items-center justify-center h-9 w-9 rounded-full border border-primary-foreground/20 hover:bg-gold hover:text-primary hover:border-gold transition"
+          >
+            <Facebook className="h-4 w-4" />
+          </a>
+          <a
+            href="https://www.facebook.com/share/18V98ADNA2/?mibextid=wwXIfr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="inline-flex items-center justify-center h-9 w-9 rounded-full border border-primary-foreground/20 hover:bg-gold hover:text-primary hover:border-gold transition"
+          >
+            <Instagram className="h-4 w-4" />
+          </a>
+        </div>
       </div>
       <div>
         <h4 className="font-display text-gold mb-4">Link Utili</h4>
@@ -31,7 +51,7 @@ export const Footer = () => (
       <div>
         <h4 className="font-display text-gold mb-4">Contatti</h4>
         <ul className="space-y-3 text-sm text-primary-foreground/80">
-          <li className="flex items-start gap-2"><Phone className="h-4 w-4 text-gold mt-0.5" /> +39 000 000 0000</li>
+          <li className="flex items-start gap-2"><Phone className="h-4 w-4 text-gold mt-0.5" /> <a href="tel:+393209597777" className="hover:text-gold">+39 320 9597777</a></li>
           <li className="flex items-start gap-2"><Mail className="h-4 w-4 text-gold mt-0.5" /> info@abidounetravel.com</li>
           <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-gold mt-0.5" /> Italia</li>
         </ul>
