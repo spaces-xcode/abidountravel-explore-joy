@@ -5,6 +5,7 @@ import { Packages } from "@/components/site/Packages";
 import { Services } from "@/components/site/Services";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Footer } from "@/components/site/Footer";
+import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 
 const Index = () => (
   <div className="min-h-screen bg-background">
@@ -17,6 +18,7 @@ const Index = () => (
       <Testimonials />
     </main>
     <Footer />
+    <WhatsAppButton />
   </div>
 );
 

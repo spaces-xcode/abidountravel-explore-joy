@@ -8,7 +8,7 @@ const packages = [
   {
     title: "Umrah Economy",
     nights: "10 Notti",
-    price: "£795",
+    price: "€795",
     img: kaaba,
     features: ["Hotel 3★ vicino al Haram", "Voli andata e ritorno", "Visto incluso", "Transfer aeroportuali"],
     badge: "Più venduto",
@@ -16,7 +16,7 @@ const packages = [
   {
     title: "Umrah Premium",
     nights: "14 Notti",
-    price: "£1,495",
+    price: "€1,495",
     img: hotel,
     features: ["Hotel 5★ a Makkah e Madinah", "Voli diretti", "Visto e tour Ziaraat", "Transfer privati"],
     badge: "Premium",
@@ -24,7 +24,7 @@ const packages = [
   {
     title: "Umrah Ramadan",
     nights: "10 Notti",
-    price: "£1,295",
+    price: "€1,295",
     img: medina,
     features: ["Hotel 4★", "Iftar incluso", "Visto incluso", "Transfer di gruppo"],
     badge: "Posti limitati",
