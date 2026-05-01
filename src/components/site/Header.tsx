@@ -30,11 +30,11 @@ export const Header = () => {
 
         <div className="flex items-center gap-3">
           <a
-            href="tel:+442033554383"
+            href="tel:+393209597777"
             className="hidden sm:inline-flex items-center gap-2 text-sm font-medium text-foreground hover:text-gold transition"
           >
             <Phone className="h-4 w-4 text-gold" />
-            +44 203 355 4383
+            +39 320 9597777
           </a>
           <button
             onClick={() => setOpen(!open)}
